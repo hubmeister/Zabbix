@@ -34,8 +34,10 @@
 # 6) Download the templates XML file from Zabbix by going to Configuration | Templates 
 #    page.
 # 7) Select the Templates box in the upper left hand corner. This will select 
-#    the available templates. Delselect the templates that do not apply such as
-#    Template OS Windows and any other test templates that are not of concern.
+#    the available templates. Proceed to the next page and repeat if there are mutiple
+#    pages of templates.
+#    Note: make sure you deselect temnplates that do not have hosts assigned to them
+#          otherwise you will get errors when running this script.
 # 8) Make sure the "Export selected" shows in the pull down menu in the
 #    lower left corner of the screen. Select the Go button in the lower left 
 #    and this will bring up a save file dialog. 

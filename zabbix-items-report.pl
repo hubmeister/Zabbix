@@ -5,6 +5,7 @@
 # Name: zabbix-items-report.pl
 # Author: Dirck Copeland
 # Creation Date: 2/24/2014
+# Update Date: 3/18/2015
 # Version:0.8
 #
 # The zbx_export_templates.xml file is exported from the Zabbix
@@ -22,6 +23,8 @@
 #    page.
 # 2) Select the Templates box in the upper left hand corner. This will select 
 #    the available templates.
+#    Note: make sure you deselect temnplates that do not have hosts assigned to them
+#          otherwise you will get errors when running this script.
 # 3) Make sure the "Export selected" shows in the pull down menu in the
 #    lower left corner of the screen. Select the Go button in the lower left 
 #    and this will bring up an save file dialog. 
