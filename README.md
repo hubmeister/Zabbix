@@ -24,8 +24,8 @@ script list-users-groups.pl will list out all the groups on the Zabbix server.
 (Note: make sure you replace the auth code 847eced3a0d1436118c3e714ca7552d0
  in the script with the one generated for your server)
 Running the script should produce output something like:
-
-root@lt-dcopeland:/home/dirck/API# ./list-users-groups.pl 
+    
+    root@lt-dcopeland:/home/dirck/API# ./list-users-groups.pl 
     List of Groups
     -----------------------------
     Group ID: 1 Name: UNIX administrators
