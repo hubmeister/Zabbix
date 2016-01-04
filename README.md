@@ -51,44 +51,45 @@ the create-users.pl script contains the folling code:
 
 Next, you should have a list of users to add in a file - call it user.list-2-23-2015 (or whatever date is current) and the list will be in the form Last-Name First-Name:
 
-Doe John
-Doe Jane
+    Doe John
+    Doe Jane
+
 Next run the command:
 
  ./create-users.pl user.list-2-23-2015 
 and you should see something like:
 
-./create-users.pl user.list-2-23-2015
-
- Adding User: John Doe
-$VAR1 = bless( {
-                 'version' => 0,
-                 'is_success' => 1,
-                 'content' => {
-                                'jsonrpc' => '2.0',
-                                'id' => 1,
-                                'result' => {
-                                              'userids' => [
-                                                             '88'
-                                                           ]
-                                            }
-                              },
-                 'jsontext' => '{"jsonrpc":"2.0","result":{"userids":["88"]},"id":1}'
-               }, 'JSON::RPC::ReturnObject' );
-JSON::RPC::ReturnObject=HASH(0x24df950)
- Adding User: Jane Doe
-$VAR1 = bless( {
-                 'is_success' => 1,
-                 'content' => {
-                                'result' => {
-                                              'userids' => [
-                                                             '89'
-                                                           ]
-                                            },
-                                'id' => 1,
-                                'jsonrpc' => '2.0'
-                              },
-                 'jsontext' => '{"jsonrpc":"2.0","result":{"userids":["89"]},"id":1}',
-                 'version' => 0
-               }, 'JSON::RPC::ReturnObject' );
-JSON::RPC::ReturnObject=HASH(0x26da5b8)
+    ./create-users.pl user.list-2-23-2015
+    
+     Adding User: John Doe
+    $VAR1 = bless( {
+                     'version' => 0,
+                     'is_success' => 1,
+                     'content' => {
+                                    'jsonrpc' => '2.0',
+                                    'id' => 1,
+                                    'result' => {
+                                                  'userids' => [
+                                                                 '88'
+                                                               ]
+                                                }
+                                  },
+                     'jsontext' => '{"jsonrpc":"2.0","result":{"userids":["88"]},"id":1}'
+                   }, 'JSON::RPC::ReturnObject' );
+    JSON::RPC::ReturnObject=HASH(0x24df950)
+     Adding User: Jane Doe
+    $VAR1 = bless( {
+                         'is_success' => 1,
+                         'content' => {
+                                        'result' => {
+                                                  'userids' => [
+                                                                 '89'
+                                                               ]
+                                                },
+                                    'id' => 1,
+                                    'jsonrpc' => '2.0'
+                                  },
+                     'jsontext' => '{"jsonrpc":"2.0","result":{"userids":["89"]},"id":1}',
+                     'version' => 0
+                   }, 'JSON::RPC::ReturnObject' );
+    JSON::RPC::ReturnObject=HASH(0x26da5b8)
