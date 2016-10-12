@@ -7,6 +7,11 @@ zabbix-trigger-report.pl is a perl script that generates a trigger report
 
 Some API examples will be added shortly
 
+To get the scripts to work yo need to install the perl module JSON::RPC::Client
+this can be done through CPAN like:
+cpan[1]> install JSON::RPC::Client
+
+
 Adding Zabbix Users using the API:
 
 In the AddingUsers directory the script auth-zabbix.pl is used to get an authentication 
