@@ -23,6 +23,7 @@ and run the script and you should see something like:
 ./auth-zabbix.pl
 Authentication successful. Auth ID: 847eced3a0d1436118c3e714ca7552d0
 
+The auth-zabbix.pl script can be found in the AddingUsers folder of this repo.
 
 Next the assumption is you would like to add the users to a specif group so the
 script list-users-groups.pl will list out all the groups on the Zabbix server.
