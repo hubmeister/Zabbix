@@ -5,7 +5,7 @@ ZABBIX-2.2-ERD.svg is a SVG file that is an Entity Relationship Diagram for Zabb
 zabbix-items-report.pl is a perl script that generates an item report
 zabbix-trigger-report.pl is a perl script that generates a trigger report
 
-Some API examples will be added shortly
+More API examples will be added shortly
 
 To get the scripts to work you need to install the perl module JSON::RPC::Client
 this can be done through CPAN like:
