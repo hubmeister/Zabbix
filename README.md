@@ -21,7 +21,10 @@ Edit the script to fill in you relavant data (i.e. Zabbix URL, username, passwor
 and run the script and you should see something like:
 
 ./auth-zabbix.pl
-Authentication successful. Auth ID: 847eced3a0d1436118c3e714ca7552d0
+
+Authentication successful. 
+
+Auth ID: 847eced3a0d1436118c3e714ca7552d0
 
 The auth-zabbix.pl script can be found in the AddingUsers folder of this repo.
 
